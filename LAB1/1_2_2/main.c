@@ -3,6 +3,6 @@
 
 int main()
 {
-    printf("Bardzo\n dlugi\n napis\n");
+    printf(" Bardzo\n dlugi\n napis\n");
     return 0;
 }
