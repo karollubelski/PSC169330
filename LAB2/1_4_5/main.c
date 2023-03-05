@@ -3,7 +3,7 @@
 
 int main()
 {
-   unsigned int n,m,k;
+   unsigned int n;
    printf("Podaj n: ");
    scanf("%u",&n);
 
