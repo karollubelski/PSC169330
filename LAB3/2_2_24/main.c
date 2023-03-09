@@ -12,7 +12,6 @@ int funkcja(int n){
     return suma;
     }
 }
-
 int main()
 {
     printf("Wynik dla n=4: %d\n",funkcja(4));
