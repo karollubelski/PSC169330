@@ -1,16 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-double func1(double(*func)(int),int y){
-    return func(y);
+double foo1(double(*foo)(int),int y){
+    return foo(y);
 }
 double sqrt(int x){
     return x*x;
 }
-int main() {
-    int y = 5;
-    double (*func)(int) = &sqrt;
-    double wynik = func1(func, y);
-    printf("Wynik dla y= %d wynosi= %f\n",y,wynik);
+int main()
+{
+    int z=5;
+    double(*foo)(int)=&sqrt;
+    double wynik = foo1(foo,z);
+    printf("%lf",wynik);
 }
-
