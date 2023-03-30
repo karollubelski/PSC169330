@@ -4,7 +4,6 @@
 int foo(int const *wsk1, int *const wsk2){
     return *wsk1-*wsk2;
 }
-
 int main()
 {
     const int x=12;
